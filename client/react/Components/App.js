@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from  'react-router-dom';
 
 import Header from './Header';
+import Display from './Display';
+
 const css = require('./App.scss');
 
 
@@ -12,7 +14,7 @@ class App extends Component {
                 <BrowserRouter>
                     <div>
                         <Header />
-                        <Route  exact path="/" render={() => {return(<div>NodeJS/ExpressJS!</div>)}}/>
+                        <Display />
                     </div>
                 </BrowserRouter>
             </div>

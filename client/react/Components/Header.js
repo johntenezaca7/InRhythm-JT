@@ -1,9 +1,11 @@
 import React from 'react';
+import Search from './Search';
 
 const Header = (Props) => {
     return(
-        <div>
-            React/Redux/React-Router with SASS!
+        <div className="Header">
+            <h1 className="title"> myTunes </h1>
+            <Search />
         </div>
     );
 }
