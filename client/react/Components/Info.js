@@ -8,7 +8,7 @@ const Info = props => {
 
   return (
     <div className="album-box">
-      <img src={props.info.artworkUrl100} alt={props.info.artistName} />
+      <img src={props.info.artworkUrl100} className="alb-img" alt={props.info.artistName} />
       <div className="album-info">
         <div>
           <u>{props.info.collectionName}</u>

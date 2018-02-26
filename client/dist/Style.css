@@ -67,5 +67,8 @@ a {
   display: grid;
   grid-template-columns: 43% 50%; }
 
+.alb-img {
+  box-shadow: -2px 3px 5px rgba(7, 7, 7, 0.2); }
+
 .small {
   font-size: 13px; }
